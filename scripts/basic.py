@@ -1,4 +1,4 @@
-from fabric import task, run, put, parallel
+from fabric.api import *
 
 @task
 @parallel
