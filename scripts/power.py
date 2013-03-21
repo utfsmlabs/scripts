@@ -1,4 +1,4 @@
-from fabric import task, parallel, reboot
+from fabric.api import *
 
 @task
 @parallel
