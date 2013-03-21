@@ -1,0 +1,303 @@
+lds-pc10
+  LV           VG      Attr     LSize  Pool Origin  Data%  Move Log Copy%  Convert
+  root         storage -wi-ao-- 50,00g                                            
+  swap         storage -wi-ao--  4,00g                                            
+  windows      storage owi-a-s- 50,00g                                            
+  windows-snap storage swi-a-s-  5,00g      windows   1,69                        
+
+lds-pc11
+  LV           VG      Attr     LSize  Pool Origin  Data%  Move Log Copy%  Convert
+  root         storage -wi-ao-- 50,00g                                            
+  swap         storage -wi-ao--  4,00g                                            
+  windows      storage owi-a-s- 50,00g                                            
+  windows-snap storage swi-a-s-  5,00g      windows   1,94                        
+
+lds-pc12
+  LV   VG      Attr     LSize  Pool Origin Data%  Move Log Copy%  Convert
+  root storage -wi-ao-- 50,00g                                           
+  swap storage -wi-ao--  4,00g                                           
+
+lds-pc13
+  LV           VG      Attr     LSize  Pool Origin  Data%  Move Log Copy%  Convert
+  root         storage -wi-ao-- 92,77g                                            
+  swap         storage -wi-ao--  5,88g                                            
+  windows      storage owi-a-s- 50,00g                                            
+  windows-snap storage swi-a-s-  5,00g      windows   0,26                        
+
+lds-pc14
+  LV           VG      Attr     LSize  Pool Origin  Data%  Move Log Copy%  Convert
+  openbsd      storage -wi-a---  8,00g                                            
+  root         storage -wi-ao-- 50,00g                                            
+  swap         storage -wi-ao--  4,00g                                            
+  windows      storage owi-a-s- 50,00g                                            
+  windows-snap storage swi-a-s-  5,00g      windows   1,80                        
+  windowsxp    storage -wi-a--- 21,00g                                            
+
+lds-pc15
+  LV            VG      Attr     LSize  Pool Origin  Data%  Move Log Copy%  Convert
+  dgd-installer storage -wi-a--- 50,01g                                            
+  openbsd       storage -wi-a---  8,00g                                            
+  root          storage -wi-ao-- 38,00g                                            
+  swap          storage -wi-ao--  4,00g                                            
+  windows       storage owi-a-s- 50,00g                                            
+  windows-snap  storage swi-a-s-  5,00g      windows   1,79                        
+  windowsxp     storage -wi-a--- 21,00g                                            
+
+lds-pc16
+
+lds-pc17
+  LV           VG      Attr     LSize  Pool Origin  Data%  Move Log Copy%  Convert
+  openbsd      storage -wi-a---  8,00g                                            
+  root         storage -wi-ao-- 50,00g                                            
+  swap         storage -wi-ao--  4,00g                                            
+  windows      storage owi-a-s- 50,00g                                            
+  windows-snap storage swi-a-s-  5,00g      windows   0,00                        
+  windowsxp    storage -wi-a--- 21,00g                                            
+
+lds-pc18
+  LV           VG      Attr     LSize  Pool Origin  Data%  Move Log Copy%  Convert
+  openbsd      storage -wi-a---  8,00g                                            
+  root         storage -wi-ao-- 58,00g                                            
+  swap         storage -wi-ao--  4,00g                                            
+  windows      storage owi-a-s- 50,00g                                            
+  windows-snap storage swi-a-s-  5,00g      windows   0,66                        
+  windowsxp    storage -wi-a--- 21,00g                                            
+
+lds-pc19
+  LV           VG      Attr     LSize  Pool Origin  Data%  Move Log Copy%  Convert
+  openbsd      storage -wi-a---  8,00g                                            
+  root         storage -wi-ao-- 58,00g                                            
+  swap         storage -wi-ao--  4,00g                                            
+  windows      storage owi-a-s- 50,00g                                            
+  windows-snap storage swi-a-s-  5,00g      windows  32,92                        
+  windowsxp    storage -wi-a--- 21,00g                                            
+
+lds-pc20
+  LV           VG      Attr     LSize  Pool Origin  Data%  Move Log Copy%  Convert
+  openbsd      storage -wi-a---  8,00g                                            
+  root         storage -wi-ao-- 58,00g                                            
+  swap         storage -wi-ao--  4,00g                                            
+  windows      storage owi-a-s- 50,00g                                            
+  windows-snap storage swi-a-s-  5,00g      windows  45,02                        
+  windowsxp    storage -wi-a--- 21,00g                                            
+
+lds-pc21
+  LV           VG      Attr     LSize  Pool Origin  Data%  Move Log Copy%  Convert
+  openbsd      storage -wi-a---  8,00g                                            
+  root         storage -wi-ao-- 50,00g                                            
+  swap         storage -wi-ao--  4,00g                                            
+  windows      storage owi-a-s- 50,00g                                            
+  windows-snap storage swi-a-s-  5,00g      windows   0,72                        
+  windowsxp    storage -wi-a--- 21,00g                                            
+
+lds-pc22
+  LV           VG      Attr     LSize  Pool Origin  Data%  Move Log Copy%  Convert
+  openbsd      storage -wi-a---  8,00g                                            
+  root         storage -wi-ao-- 50,00g                                            
+  swap         storage -wi-ao--  4,00g                                            
+  windows      storage owi-a-s- 50,00g                                            
+  windows-snap storage swi-a-s-  5,00g      windows   2,44                        
+  windowsxp    storage -wi-a--- 21,00g                                            
+
+lds-pc23
+  LV           VG      Attr     LSize  Pool Origin  Data%  Move Log Copy%  Convert
+  openbsd      storage -wi-a---  8,00g                                            
+  root         storage -wi-ao-- 50,00g                                            
+  swap         storage -wi-ao--  4,00g                                            
+  windows      storage owi-a-s- 50,00g                                            
+  windows-snap storage swi-a-s-  5,00g      windows   0,78                        
+  windowsxp    storage -wi-a--- 21,00g                                            
+
+lds-pc24
+  LV           VG      Attr     LSize  Pool Origin  Data%  Move Log Copy%  Convert
+  openbsd      storage -wi-a---  8,00g                                            
+  root         storage -wi-ao-- 38,00g                                            
+  swap         storage -wi-ao--  4,00g                                            
+  windows      storage owi-a-s- 50,00g                                            
+  windows-snap storage swi-a-s-  5,00g      windows   0,00                        
+  windowsxp    storage -wi-a--- 21,00g                                            
+
+lds-pc25
+  LV           VG      Attr     LSize  Pool Origin  Data%  Move Log Copy%  Convert
+  openbsd      storage -wi-a---  8,00g                                            
+  root         storage -wi-ao-- 38,00g                                            
+  swap         storage -wi-ao--  4,00g                                            
+  windows      storage owi-a-s- 50,00g                                            
+  windows-snap storage swi-a-s-  5,00g      windows   2,16                        
+  windowsxp    storage -wi-a--- 21,00g                                            
+
+lds-pc26
+  LV           VG      Attr     LSize  Pool Origin  Data%  Move Log Copy%  Convert
+  openbsd      storage -wi-a---  8,00g                                            
+  root         storage -wi-ao-- 50,00g                                            
+  swap         storage -wi-ao--  4,00g                                            
+  windows      storage owi-a-s- 50,00g                                            
+  windows-snap storage swi-a-s-  5,00g      windows   0,68                        
+  windowsxp    storage -wi-a--- 21,00g                                            
+
+lds-pc27
+  LV             VG      Attr     LSize  Pool Origin    Data%  Move Log Copy%  Convert
+  openbsd        storage owi-a-s-  8,00g                                              
+  openbsd-snap   storage swi-a-s-  5,00g      openbsd     0,03                        
+  root           storage -wi-ao-- 50,00g                                              
+  swap           storage -wi-ao--  4,00g                                              
+  windows        storage owi-a-s- 50,00g                                              
+  windows-snap   storage swi-a-s-  5,00g      windows     0,00                        
+  windowsxp      storage owi-a-s- 21,00g                                              
+  windowsxp-snap storage swi-a-s-  5,00g      windowsxp   1,16                        
+
+lds-pc28
+  LV           VG      Attr     LSize  Pool Origin  Data%  Move Log Copy%  Convert
+  root         storage -wi-ao-- 92,77g                                            
+  swap         storage -wi-ao--  5,88g                                            
+  windows      storage owi-a-s- 50,00g                                            
+  windows-snap storage swi-a-s-  5,00g      windows   0,66                        
+
+lds-pc29
+
+lds-pc30
+  LV           VG      Attr     LSize  Pool Origin  Data%  Move Log Copy%  Convert
+  openbsd      storage -wi-a---  8,00g                                            
+  root         storage -wi-ao-- 50,00g                                            
+  sas          storage -wi-a--- 30,00g                                            
+  swap         storage -wi-ao--  4,00g                                            
+  windows      storage owi-a-s- 50,00g                                            
+  windows-snap storage swi-a-s-  5,00g      windows   0,00                        
+  windowsxp    storage -wi-a--- 21,00g                                            
+
+lds-pc31
+  LV             VG      Attr     LSize  Pool Origin  Data%  Move Log Copy%  Convert
+  LubuntuIgniter storage -wi-a---  8,00g                                            
+  openbsd        storage -wi-a---  8,00g                                            
+  root           storage -wi-ao-- 50,00g                                            
+  sas            storage -wi-a--- 30,00g                                            
+  swap           storage -wi-ao--  4,00g                                            
+  windows        storage owi-a-s- 50,00g                                            
+  windows-snap   storage swi-a-s-  5,00g      windows   0,00                        
+  windowsxp      storage -wi-a--- 21,00g                                            
+
+lds-pc32
+  LV           VG      Attr     LSize  Pool Origin  Data%  Move Log Copy%  Convert
+  openbsd      storage -wi-a---  8,00g                                            
+  root         storage -wi-ao-- 38,00g                                            
+  swap         storage -wi-ao--  4,00g                                            
+  windows      storage owi-a-s- 50,00g                                            
+  windows-snap storage swi-a-s-  5,00g      windows   0,00                        
+  windowsxp    storage -wi-a--- 21,00g                                            
+
+lds-pc33
+  LV           VG      Attr     LSize  Pool Origin  Data%  Move Log Copy%  Convert
+  openbsd      storage -wi-a---  8,00g                                            
+  root         storage -wi-ao-- 38,00g                                            
+  swap         storage -wi-ao--  4,00g                                            
+  windows      storage owi-a-s- 50,00g                                            
+  windows-snap storage swi-a-s-  5,00g      windows   0,00                        
+  windowsxp    storage -wi-a--- 21,00g                                            
+
+lds-pc34
+  LV           VG      Attr     LSize  Pool Origin  Data%  Move Log Copy%  Convert
+  openbsd      storage -wi-a---  8,00g                                            
+  root         storage -wi-ao-- 38,00g                                            
+  swap         storage -wi-ao--  4,00g                                            
+  windows      storage owi-a-s- 50,00g                                            
+  windows-snap storage swi-a-s-  5,00g      windows   0,00                        
+  windowsxp    storage -wi-a--- 21,00g                                            
+
+lds-pc35
+  LV           VG      Attr     LSize  Pool Origin  Data%  Move Log Copy%  Convert
+  openbsd      storage -wi-a---  8,00g                                            
+  root         storage -wi-ao-- 38,00g                                            
+  swap         storage -wi-ao--  4,00g                                            
+  windows      storage owi-a-s- 50,00g                                            
+  windows-snap storage swi-a-s-  5,00g      windows   2,02                        
+  windowsxp    storage -wi-a--- 21,00g                                            
+
+lds-pc36
+  LV           VG      Attr     LSize  Pool Origin  Data%  Move Log Copy%  Convert
+  openbsd      storage -wi-a---  8,00g                                            
+  root         storage -wi-ao-- 38,00g                                            
+  swap         storage -wi-ao--  4,00g                                            
+  windows      storage owi-a-s- 50,00g                                            
+  windows-snap storage swi-a-s-  5,00g      windows   0,00                        
+  windowsxp    storage -wi-a--- 21,00g                                            
+
+lds-pc37
+  LV           VG      Attr     LSize  Pool Origin  Data%  Move Log Copy%  Convert
+  openbsd      storage -wi-a---  8,00g                                            
+  root         storage -wi-ao-- 38,00g                                            
+  swap         storage -wi-ao--  4,00g                                            
+  windows      storage owi-a-s- 50,00g                                            
+  windows-snap storage swi-a-s-  5,00g      windows   0,00                        
+  windowsxp    storage -wi-a--- 21,00g                                            
+
+lds-pc40
+  LV              VG      Attr     LSize  Pool Origin  Data%  Move Log Copy%  Convert
+  LubuntuIgniter  storage -wi-a---  8,00g                                            
+  TallerServicios storage -wi-a--- 20,00g                                            
+  openbsd         storage -wi-a---  8,00g                                            
+  pentaho         storage -wi-a--- 20,00g                                            
+  root            storage -wi-ao-- 50,00g                                            
+  sas             storage -wi-a--- 30,00g                                            
+  swap            storage -wi-ao--  4,00g                                            
+  windows         storage owi-a-s- 50,00g                                            
+  windows-snap    storage swi-a-s-  5,00g      windows   0,00                        
+  windowsxp       storage -wi-a--- 21,00g                                            
+
+lds-pc41
+  LV             VG      Attr     LSize  Pool Origin  Data%  Move Log Copy%  Convert
+  LubuntuIgniter storage -wi-a---  8,00g                                            
+  openbsd        storage -wi-a---  8,00g                                            
+  root           storage -wi-ao-- 50,00g                                            
+  sas            storage -wi-a--- 30,00g                                            
+  swap           storage -wi-ao--  4,00g                                            
+  windows        storage owi-a-s- 50,00g                                            
+  windows-snap   storage swi-a-s-  5,00g      windows  11,46                        
+  windowsxp      storage -wi-a--- 21,00g                                            
+
+lds-pc42
+  LV           VG      Attr     LSize  Pool Origin  Data%  Move Log Copy%  Convert
+  openbsd      storage -wi-a---  8,00g                                            
+  root         storage -wi-ao-- 38,00g                                            
+  swap         storage -wi-ao--  4,00g                                            
+  windows      storage owi-a-s- 50,00g                                            
+  windows-snap storage swi-a-s-  5,00g      windows   0,00                        
+  windowsxp    storage -wi-a--- 21,00g                                            
+
+lds-pc43
+  LV           VG      Attr     LSize  Pool Origin  Data%  Move Log Copy%  Convert
+  openbsd      storage -wi-a---  8,00g                                            
+  root         storage -wi-ao-- 33,00g                                            
+  swap         storage -wi-ao--  4,00g                                            
+  windows      storage owi-a-s- 50,00g                                            
+  windows-snap storage swi-a-s-  5,00g      windows   0,00                        
+  windowsxp    storage -wi-a--- 21,00g                                            
+
+lds-pc44
+  LV           VG      Attr     LSize  Pool Origin  Data%  Move Log Copy%  Convert
+  openbsd      storage -wi-a---  8,00g                                            
+  root         storage -wi-ao-- 50,00g                                            
+  swap         storage -wi-ao--  4,00g                                            
+  windows      storage owi-a-s- 50,00g                                            
+  windows-snap storage swi-a-s-  5,00g      windows   3,63                        
+  windowsxp    storage -wi-a--- 21,00g                                            
+
+lds-pc45
+  LV           VG      Attr     LSize  Pool Origin  Data%  Move Log Copy%  Convert
+  openbsd      storage -wi-a---  8,00g                                            
+  root         storage -wi-ao-- 55,00g                                            
+  swap         storage -wi-ao--  4,00g                                            
+  windows      storage owi-a-s- 50,00g                                            
+  windows-snap storage swi-a-s-  5,00g      windows  30,80                        
+  windowsxp    storage -wi-a--- 21,00g                                            
+
+lds-pc46
+  LV           VG      Attr     LSize  Pool Origin  Data%  Move Log Copy%  Convert
+  openbsd      storage -wi-a---  8,00g                                            
+  root         storage -wi-ao-- 50,00g                                            
+  swap         storage -wi-ao--  4,00g                                            
+  windows      storage owi-a-s- 50,00g                                            
+  windows-snap storage swi-a-s-  5,00g      windows   0,00                        
+  windowsxp    storage -wi-a--- 21,00g                                            
+
+lds-pc47
+

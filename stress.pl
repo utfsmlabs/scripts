@@ -17,7 +17,7 @@ while(<LOGINS>){
         chomp $host;
     }
 	print "Host:$host\n"; 
-    %opts = (user => "root", passwd => "####");
+    %opts = (user => "root", passwd => "AuchentoshAn014");
     eval {
         $ssh=Net::OpenSSH->new("$host.inf.santiago.usm.cl",qw(user root));
         #print "Login pass\n";
