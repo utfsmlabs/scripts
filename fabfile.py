@@ -14,7 +14,7 @@ with open('pcs/i5', 'r') as f:
     i5.append(line)
 
 lds = []
-with open('pcs/lpa', 'r') as f:
+with open('pcs/lds', 'r') as f:
   for line in f:
     lds.append(line)
 
