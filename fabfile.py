@@ -33,3 +33,10 @@ env.forward_agent = True
 
 # seteamos user para ejecutar
 env.user = 'root'
+
+# seteamos timeouts para servidores
+env.connection_attempts = 1
+env.timeout = 3
+
+# seteamos saltarse los hosts que no responden, para no tirar errores
+env.skip_bad_hosts = True
