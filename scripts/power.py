@@ -4,5 +4,5 @@ from scripts.helper import *
 @task
 @parallel
 def reiniciar():
-  if _is_host_up(env.host, int(env.port)) is True:
+  if helper._is_host_up(env.host, int(env.port)) is True:
     reboot()
