@@ -1,13 +1,8 @@
-from fabric.state import default_channel
-
-def ignore_offline(fn):
-    def wrapped(*args, **kwargs):
-        try:
-            default_channel()
-        except:
-            print "Host offline"
-            return
-        return fn(*args, **kwargs)
-    wrapped.__name__ = fn.__name__
-    wrapped.__doc__ = fn.__doc__
-    return wrapped
+def _output_status(failed, success):
+  print "Ejecucion fallada en: "
+  for pc in failed:
+    print(pc, end=" ")
+  print "--"
+  print "Ejecucion exitosa en: "
+  for pc in success:
+    print(pc, end=" ")

@@ -5,10 +5,19 @@ from scripts import helper
 @task
 @parallel
 def ejecutar(com):
-  try:
-    run(com)
-  except NetworkError:
-    print "No se pudo conectar"
+  success = []
+  failed  = []
+
+  with hide('everything'):
+    try:
+      run(com)
+    except NetworkError:
+      failed.append(env.host)
+    else:
+      success.append(env.host)
+    finnaly:
+      helper._output_status(failed, success)
+
 
 @task
 @parallel
