@@ -1,5 +1,5 @@
 from fabric.api import *
-from scripts.helper import *
+from scripts import helper
 
 @task
 def ejecutar(com):
