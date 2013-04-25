@@ -1,15 +1,13 @@
-import paramiko
-import socket
-from fabric.api import *
+from fabric.state import default_channel
 
 def ignore_offline(fn):
-    def wrapped():
-        original_timeout = socket.getdefaulttimeout()
-        socket.setdefaulttimeout(3)
+    def wrapped(*args, **kwargs):
         try:
-            paramiko.Transport((env.host, int(env.port)))
-            return fn()
+            default_channel()
         except:
-            print "The following host appears to be offline: " + env.host
-        socket.setdefaulttimeout(original_timeout)
+            print "Host offline"
+            return
+        return fn(*args, **kwargs)
+    wrapped.__name__ = fn.__name__
+    wrapped.__doc__ = fn.__doc__
     return wrapped
