@@ -8,15 +8,15 @@ def ejecutar(com):
   success = []
   failed  = []
 
-  with hide('everything'):
+  with hide('commands'):
     try:
       run(com)
     except NetworkError:
       failed.append(env.host)
     else:
       success.append(env.host)
-    finally:
-      helper._output_status(failed, success)
+  
+  helper._output_status(failed, success)
 
 
 @task
