@@ -6,7 +6,7 @@ from scripts import helper
 def ejecutar(com):
   try:
     run(com)
-  except NetworkError:
+  except NetworkException:
     print "No se pudo conectar"
 
 @task
