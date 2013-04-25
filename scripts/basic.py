@@ -15,7 +15,7 @@ def ejecutar(com):
       failed.append(env.host)
     else:
       success.append(env.host)
-    finnaly:
+    finally:
       helper._output_status(failed, success)
 
 
