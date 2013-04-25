@@ -1,5 +1,6 @@
 import paramiko
 import socket
+from fabric.api import *
 
 def ignore_offline(fn):
     original_timeout = socket.getdefaulttimeout()
