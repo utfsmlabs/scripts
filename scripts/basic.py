@@ -1,4 +1,5 @@
 from fabric.api import *
+from fabric.exceptions import NetworkError
 from scripts import helper
 
 @task
@@ -6,7 +7,7 @@ from scripts import helper
 def ejecutar(com):
   try:
     run(com)
-  except NetworkException:
+  except NetworkError:
     print "No se pudo conectar"
 
 @task
