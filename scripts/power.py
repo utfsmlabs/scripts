@@ -3,6 +3,6 @@ from scripts import helper
 
 @task
 @parallel
+@helper.ignore_offline
 def reiniciar():
-  if helper._is_host_up(env.host, int(env.port)) is True:
-    reboot()
+  reboot()

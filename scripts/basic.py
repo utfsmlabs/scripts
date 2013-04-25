@@ -2,11 +2,11 @@ from fabric.api import *
 from scripts import helper
 
 @task
+@helper.ignore_offline
 def ejecutar(com):
-  if helper._is_host_up(env.host, int(env.port)) is True:
-    run(com)
+  run(com)
 
 @task
+@helper.ignore_offline
 def copiar(archivo, destino):
-  if helper._is_host_up(env.host, int(env.port)) is True:
-    put(archivo, destino)
+  put(archivo, destino)
