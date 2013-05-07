@@ -3,7 +3,6 @@ from fabric.exceptions import NetworkError
 from scripts import helper
 
 @task
-@parallel
 def ejecutar(com):
   success = []
   failed  = []
@@ -20,6 +19,5 @@ def ejecutar(com):
 
 
 @task
-@parallel
 def copiar(archivo, destino):
   put(archivo, destino)
