@@ -4,13 +4,12 @@ from scripts import helper
 
 @task
 def ejecutar(com):
-  with hide('commands'):
-    try:
-      run(com)
-    except NetworkError:
-      failed.append(env.host)
-    else:
-      success.append(env.host)
+  try:
+    run(com)
+  except NetworkError:
+    failed.append(env.host)
+  else:
+    success.append(env.host)
 
 @task
 def copiar(archivo, destino):
