@@ -13,12 +13,13 @@ def results():
 @task
 @add_post_run_hook(results)
 def ejecutar(com):
-  try:
-    run(com)
-  except NetworkError:
-    failed.append(env.host)
-  else:
-    success.append(env.host)
+  with hide("commands"):
+    try:
+      run(com)
+    except NetworkError:
+      failed.append(env.host)
+    else:
+      success.append(env.host)
 
 @task
 def copiar(archivo, destino):
