@@ -5,6 +5,11 @@ from scripts.helper import add_post_run_hook
 success = []
 failed = []
 
+def results():
+  print "Ejecucion finalizada"
+  print "Fallidos: " + str(failed)
+  print "Exitosos: " + str(success)
+
 @task
 @add_post_run_hook(results)
 def ejecutar(com):
@@ -18,8 +23,3 @@ def ejecutar(com):
 @task
 def copiar(archivo, destino):
   put(archivo, destino)
-
-def results():
-  print "Ejecucion finalizada"
-  print "Fallidos: " + str(failed)
-  print "Exitosos: " + str(success)
