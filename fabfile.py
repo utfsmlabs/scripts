@@ -28,7 +28,7 @@ env.roledefs = {
   'lds': lds
 }
 
-# seteamos para usar ssh-add
+# seteamos para usar ssh-agent (ejecutar ssh-add antes!)
 env.forward_agent = True
 
 # seteamos user para ejecutar
