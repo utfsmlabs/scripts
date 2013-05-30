@@ -7,8 +7,19 @@ failed = []
 
 def results():
   print "Ejecucion finalizada"
-  print "Fallidos: " + str(failed)
-  print "Exitosos: " + str(success)
+
+  f = ""
+  s = ""
+  for fail in failed:
+    f += fail + " "
+  for exito in success:
+    s += exito + " "
+
+  print "Fallidos: "
+  print f
+  print "Exitosos: "
+  print s
+  
   del success[:]
   del failed[:]
 

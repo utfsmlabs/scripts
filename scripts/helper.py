@@ -75,7 +75,7 @@ def add_hooks(pre=None, pre_args=(), pre_kwargs={},
             if (f.__name__ == parent_task_name and
                 NS.run_counter >= len(env.all_hosts)):
                 if post:
-                    print 'Post-run processing...'
+                    #print 'Post-run processing...'
                     post(*post_args, **post_kwargs)
 
             return r
