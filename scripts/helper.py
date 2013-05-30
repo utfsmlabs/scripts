@@ -53,8 +53,8 @@ def add_hooks(pre=None, pre_args=(), pre_kwargs={},
             if not parent_task_name:
                 parent_task_name = f.__name__
             NS.run_counter += 1
-            print 'parent_task_name: %s' % parent_task_name
-            print 'count/N_hosts: %d/%d' % (NS.run_counter, len(env.all_hosts))
+            #print 'parent_task_name: %s' % parent_task_name
+            #print 'count/N_hosts: %d/%d' % (NS.run_counter, len(env.all_hosts))
 
             # pre-run processing
             if f.__name__ == parent_task_name and NS.run_counter == 1:

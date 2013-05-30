@@ -9,13 +9,13 @@ def results():
   print "Ejecucion finalizada"
   print "Fallidos: " + str(failed)
   print "Exitosos: " + str(success)
-  success = []
-  failed = []
+  del success[:]
+  del failed[:]
 
 @task
 @add_post_run_hook(results)
 def reiniciar():
-  with hide("commands"):
+  with hide("debug"):
     try:
       reboot()
     except NetworkError:
